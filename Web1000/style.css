@@ -1,0 +1,62 @@
+.box1 {
+    background-color: darkmagenta;
+    color:wheat;
+    width:150px;
+    height:120px;
+    
+    position: absolute;
+    top:147px ;
+    bottom: ;
+    left: 291px;
+    right:;
+    border-radius: 20px;
+    overflow: auto;
+}
+
+.box2 {
+    background-color: orange;
+    color:wheat;
+    width:150px;
+    height:120px;
+    
+    position: absolute;
+    top:152px ;
+    bottom: ;
+    left: 460px;
+    right:;
+    border-radius: 50%;
+  
+
+    text-align: center;
+}
+
+small {
+    position: relative;
+    width:30px;
+    height:30px;
+    top:-20px;
+    background-color: red;
+}
+.box2:hover {
+    cursor: pointer;
+    background-color: blue;
+}
+
+.box3 {
+    background-color:black;
+    color:wheat;
+    width:100px;
+    height:100px;
+    
+    position: absolute;
+    top:320px ;
+    
+    left: 490px;
+   
+    transition: transform 0.5s;
+}
+
+.box3:hover {
+    transform: rotate(450deg) scale(1.2) ;
+    background-color: greenyellow;
+}
